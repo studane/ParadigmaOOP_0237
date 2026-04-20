@@ -10,7 +10,7 @@ public :
     void printData(){
         cout<<"NIM : "<<nim<<endl;
         cout<<"Nama : "<<nama<<endl;
-        cout<<:"Nilai : "<<nilai<<endl;
+        cout<<"Nilai : "<<nilai<<endl;
     }
 };
 
@@ -19,4 +19,6 @@ int main(){
     mhs.nim = 2022;
     mhs.nama = "Abra";
     mhs.nilai = 90.5;
+
+    mhs.printData();
 }
